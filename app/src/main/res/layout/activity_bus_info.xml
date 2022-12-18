@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".model.bus_info">
+
+
+    <TextView
+        android:id="@+id/BusInfoTop"
+        android:layout_width="404dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="-45dp"
+        android:background="@drawable/home_rect1"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/BusRouteText"
+        android:layout_width="290dp"
+        android:layout_height="57dp"
+        android:background="@drawable/login_rect"
+        android:gravity="center"
+        android:text="@string/bus_route"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BusInfoTop"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <ListView
+        android:id="@+id/BusRouteList"
+        android:layout_width="403dp"
+        android:layout_height="364dp"
+        android:layout_marginTop="15dp"
+        android:dividerHeight="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BusRouteText"
+        app:layout_constraintVertical_bias="0.351" />
+
+    <Button
+        android:id="@+id/bookTicket"
+        android:layout_width="127dp"
+        android:layout_height="50dp"
+        android:text="@string/book_ticket"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BusRouteList" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

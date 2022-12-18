@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BusTopia</string>
+    <string name="register">Register</string>
+    <string name="loginID">Login ID</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="warning">Invalid login ID or Password</string>
+    <string name="welcome">Welcome</string>
+    <string name="username">Username</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="others">Others</string>
+    <string name="errorMsg">Password and Confirm password should be same.</string>
+    <string name="loginHint">Enter Login ID here</string>
+    <string name="passwordHint">Enter Password</string>
+    <string name="location1">Your Location</string>
+    <string name="textLocationPage">Search bus with locations.</string>
+    <string name="destination1">Your Destination</string>
+    <string name="findBusButton">Find buses</string>
+    <string name="bus_name">Bus Name</string>
+    <string name="bus_route">Bus Route</string>
+    <string name="book_ticket">Book Ticket</string>
+    <string name="welcome_admin">Welcome Admin</string>
+    <string name="get_user_data">Get User Data</string>
+    <string name="get_bus_route_data">Get Bus Route Data</string>
+    <string name="change_admin_login_data">Change Admin Login Data</string>
+    <string name="update_admin_data">Update Admin Data</string>
+    <string name="new_login_id">New Login ID</string>
+    <string name="new_password">New Password</string>
+    <string name="update">Update</string>
+    <string name="getUserInfoDatabase">This is the complete user database.</string>
+    <string name="delete_user">Delete User</string>
+    <string name="empty_warning">Please fill all fields.</string>
+</resources>
